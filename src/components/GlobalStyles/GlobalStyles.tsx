@@ -1,6 +1,7 @@
 import { ThemeProvider } from '@mui/material/styles';
 import React from 'react';
 import config from '~/config';
+import './GlobalStyles.css';
 
 interface GlobalStylesProps {
     children: React.ReactNode;
